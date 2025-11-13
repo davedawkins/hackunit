@@ -1,7 +1,6 @@
 module Users
 
 open Sutil
-open Sutil.Bulma
 open type Feliz.length
 
 open Sutil.Styling
@@ -114,37 +113,37 @@ let create() =
     let model, dispatch = () |> Store.makeElmish init update ignore
 
     let labeledField (label:string) (model : IObservable<string>) (dispatch : string -> unit) =
-        bulma.field.div [
-            field.isHorizontal
-            bulma.fieldLabel [ bulma.label [ Html.text label ] ]
-            bulma.fieldBody [
-                bulma.control.div [
-                    Attr.className "width100"
-                    bulma.input.text [
+        Html.divc "field is-horizontal" [
+            Html.divc "field-label" [ Html.labelc "label" [ Html.text label ] ]
+            Html.divc "field-body" [
+                Html.divc "control width100" [
+                    Html.inputc "input" [
                         Bind.attr ("value",model,dispatch)
                     ]]]]
 
     let button (label:string) enabled message =
-        bulma.control.p [
-            bulma.button.button [
+        Html.pc "control" [
+            Html.buttonc "button" [
                 Bind.attr ("disabled", model .> (enabled >> not))
                 Html.text label
                 Ev.onClick (fun _ -> dispatch message)
                 ] ]
 
-    bulma.section [
-        bulma.columns [
-            bulma.column [
-                column.is6
+    Html.divc "section" [
+        Html.divc "columns" [
+            Html.divc "column is-6" [
                 labeledField "Filter prefix:" (model |> Store.map filter) (dispatch << SetFilter)
             ]
         ]
 
-        bulma.columns [
-            bulma.column [
-                column.is6
+        Html.divc "columns" [
+            Html.divc "column is-6"  [
 
-                Sutil.Bulma.Helpers.selectList [
+                Html.divc "select is-multiple" [Html.select [
+                    Attr.style [
+                        Css.custom("height", "auto")
+                        Css.padding 0
+                    ]
                     Attr.size 6
 
                     let viewNames =
@@ -157,24 +156,21 @@ let create() =
                             ])
 
                     Bind.selected (model |> Store.map selection, List.exactlyOne >> Select >> dispatch)
-                ]
+                ]]
             ]
-            bulma.column [
-                column.is6
+            Html.divc "column is-6"  [
                 labeledField "Name:" (model |> Store.map name) (dispatch << SetName)
                 labeledField "Surname:" (model |> Store.map surname) (dispatch << SetSurname)
             ]
         ]
 
-        bulma.field.div [
-            field.isGrouped
+        Html.divc "field is-grouped" [
             button "Create" canCreate Create
             button "Update" canUpdate Update
             button "Delete" canDelete Delete
         ]
 
-        bulma.field.div [
-            color.hasTextDanger
+        Html.divc "field has-text-danger" [
             Bind.fragment (model |> Store.map error) Html.text
         ]
 
