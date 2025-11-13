@@ -7,7 +7,8 @@
     "build": "dotnet fable src/App -o build && vite build",
     "start": "dotnet fable watch src/App --verbose -o build --run vite",
     "preview": "vite preview",
-    "clean": "dotnet fable clean -o build --yes"
+    "clean": "dotnet fable clean -o build --yes",
+    "tests:start": "(cd tests; dotnet fable watch . --verbose --run vite)"
   },
   "devDependencies": {
     "mocha": "^11.7.4",

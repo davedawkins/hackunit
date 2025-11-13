@@ -24,6 +24,7 @@ let arithmeticTests =
     ]
 
 let allTests = testList "All" [
+    StoreTests.storeTests
     arithmeticTests
 ]
 
