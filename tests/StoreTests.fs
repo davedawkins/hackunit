@@ -8,8 +8,35 @@ open Fable.Mocha
 open Expecto
 #endif
 
+let store = Store.make 0
+
+let updateNumberStore(i : int) = 
+    store
+    |> Store.modify (fun _ ->  i)
+
+let getNumber() : System.IObservable<int> = 
+    store
+
+
+
 let storeTests =
     testList "Store tests" [
+
+        test "te4sttthing" {
+            
+            let dataView = getNumber();
+
+            let mutable n = 0
+                            
+            getNumber().Subscribe( fun x -> 
+                n <- x
+            ) |> ignore
+
+            updateNumberStore 42
+            
+            Expect.equal n 42 "store.Value = 24"
+        }
+
         test "init works" {
             let store = Store.make 42
             Expect.equal store.Value 42 "store.Value = 42"
@@ -37,7 +64,11 @@ let storeTests =
             let store = Store.make 0
             let mutable n = -1
             
-            let sub = store.Subscribe( fun x -> 
+            let _ob : System.IObservable<_> = store
+            
+            let _map = store |> Store.map id
+            
+            let sub = _map.Subscribe( fun x -> 
                 n <- x
             ) 
 

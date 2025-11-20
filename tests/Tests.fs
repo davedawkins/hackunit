@@ -18,12 +18,13 @@ let arithmeticTests =
 
         testAsync "Test async code" {
             let! x = async { return 21 }
-            let answer = x * 3
+            let answer = x * 2
             Expect.equal 42 answer "async"
         }
     ]
 
 let allTests = testList "All" [
+    DatabaseTests.dbTests
     StoreTests.storeTests
     arithmeticTests
 ]

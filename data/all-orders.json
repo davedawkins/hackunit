@@ -1,0 +1,542 @@
+[
+  {
+    "Parts": [
+      {
+        "Sku": "SKU-001-WIDGET-A",
+        "Qty": 5
+      },
+      {
+        "Sku": "SKU-002-GADGET-B",
+        "Qty": 3
+      }
+    ]
+  },
+  {
+    "Parts": [
+      {
+        "Sku": "SKU-003-COMPONENT-C",
+        "Qty": 10
+      }
+    ]
+  },
+  {
+    "Parts": [
+      {
+        "Sku": "SKU-001-WIDGET-A",
+        "Qty": 2
+      },
+      {
+        "Sku": "SKU-004-PART-D",
+        "Qty": 7
+      },
+      {
+        "Sku": "SKU-005-MODULE-E",
+        "Qty": 1
+      }
+    ]
+  },
+  {
+    "Parts": [
+      {
+        "Sku": "SKU-006-ASSEMBLY-F",
+        "Qty": 4
+      }
+    ]
+  },
+  {
+    "Parts": [
+      {
+        "Sku": "SKU-007-BRACKET-G",
+        "Qty": 15
+      },
+      {
+        "Sku": "SKU-008-HOUSING-H",
+        "Qty": 8
+      }
+    ]
+  },
+  {
+    "Parts": [
+      {
+        "Sku": "SKU-009-CONNECTOR-I",
+        "Qty": 50
+      },
+      {
+        "Sku": "SKU-010-CABLE-J",
+        "Qty": 25
+      }
+    ]
+  },
+  {
+    "Parts": [
+      {
+        "Sku": "SKU-011-PANEL-K",
+        "Qty": 6
+      }
+    ]
+  },
+  {
+    "Parts": [
+      {
+        "Sku": "SKU-012-SWITCH-L",
+        "Qty": 12
+      },
+      {
+        "Sku": "SKU-013-SENSOR-M",
+        "Qty": 12
+      }
+    ]
+  },
+  {
+    "Parts": [
+      {
+        "Sku": "SKU-014-MOTOR-N",
+        "Qty": 3
+      },
+      {
+        "Sku": "SKU-015-BEARING-O",
+        "Qty": 9
+      }
+    ]
+  },
+  {
+    "Parts": [
+      {
+        "Sku": "SKU-016-VALVE-P",
+        "Qty": 4
+      },
+      {
+        "Sku": "SKU-017-FILTER-Q",
+        "Qty": 8
+      }
+    ]
+  },
+  {
+    "Parts": [
+      {
+        "Sku": "SKU-018-PUMP-R",
+        "Qty": 2
+      }
+    ]
+  },
+  {
+    "Parts": [
+      {
+        "Sku": "SKU-019-RELAY-S",
+        "Qty": 20
+      },
+      {
+        "Sku": "SKU-020-DISPLAY-T",
+        "Qty": 5
+      }
+    ]
+  },
+  {
+    "Parts": [
+      {
+        "Sku": "SKU-001-WIDGET-A",
+        "Qty": 100
+      }
+    ]
+  },
+  {
+    "Parts": [
+      {
+        "Sku": "SKU-002-GADGET-B",
+        "Qty": 7
+      },
+      {
+        "Sku": "SKU-003-COMPONENT-C",
+        "Qty": 14
+      }
+    ]
+  },
+  {
+    "Parts": [
+      {
+        "Sku": "SKU-005-MODULE-E",
+        "Qty": 6
+      },
+      {
+        "Sku": "SKU-006-ASSEMBLY-F",
+        "Qty": 6
+      },
+      {
+        "Sku": "SKU-007-BRACKET-G",
+        "Qty": 12
+      }
+    ]
+  },
+  {
+    "Parts": [
+      {
+        "Sku": "SKU-008-HOUSING-H",
+        "Qty": 3
+      }
+    ]
+  },
+  {
+    "Parts": [
+      {
+        "Sku": "SKU-010-CABLE-J",
+        "Qty": 100
+      },
+      {
+        "Sku": "SKU-009-CONNECTOR-I",
+        "Qty": 200
+      }
+    ]
+  },
+  {
+    "Parts": [
+      {
+        "Sku": "SKU-011-PANEL-K",
+        "Qty": 10
+      },
+      {
+        "Sku": "SKU-012-SWITCH-L",
+        "Qty": 10
+      }
+    ]
+  },
+  {
+    "Parts": [
+      {
+        "Sku": "SKU-013-SENSOR-M",
+        "Qty": 25
+      }
+    ]
+  },
+  {
+    "Parts": [
+      {
+        "Sku": "SKU-014-MOTOR-N",
+        "Qty": 1
+      },
+      {
+        "Sku": "SKU-015-BEARING-O",
+        "Qty": 4
+      },
+      {
+        "Sku": "SKU-016-VALVE-P",
+        "Qty": 2
+      }
+    ]
+  },
+  {
+    "Parts": [
+      {
+        "Sku": "SKU-017-FILTER-Q",
+        "Qty": 12
+      }
+    ]
+  },
+  {
+    "Parts": [
+      {
+        "Sku": "SKU-018-PUMP-R",
+        "Qty": 1
+      },
+      {
+        "Sku": "SKU-019-RELAY-S",
+        "Qty": 5
+      }
+    ]
+  },
+  {
+    "Parts": [
+      {
+        "Sku": "SKU-020-DISPLAY-T",
+        "Qty": 8
+      }
+    ]
+  },
+  {
+    "Parts": [
+      {
+        "Sku": "SKU-001-WIDGET-A",
+        "Qty": 15
+      },
+      {
+        "Sku": "SKU-004-PART-D",
+        "Qty": 15
+      }
+    ]
+  },
+  {
+    "Parts": [
+      {
+        "Sku": "SKU-002-GADGET-B",
+        "Qty": 20
+      }
+    ]
+  },
+  {
+    "Parts": [
+      {
+        "Sku": "SKU-003-COMPONENT-C",
+        "Qty": 5
+      },
+      {
+        "Sku": "SKU-005-MODULE-E",
+        "Qty": 5
+      }
+    ]
+  },
+  {
+    "Parts": [
+      {
+        "Sku": "SKU-006-ASSEMBLY-F",
+        "Qty": 2
+      },
+      {
+        "Sku": "SKU-007-BRACKET-G",
+        "Qty": 4
+      },
+      {
+        "Sku": "SKU-008-HOUSING-H",
+        "Qty": 2
+      }
+    ]
+  },
+  {
+    "Parts": [
+      {
+        "Sku": "SKU-011-PANEL-K",
+        "Qty": 8
+      }
+    ]
+  },
+  {
+    "Parts": [
+      {
+        "Sku": "SKU-012-SWITCH-L",
+        "Qty": 30
+      },
+      {
+        "Sku": "SKU-013-SENSOR-M",
+        "Qty": 30
+      }
+    ]
+  },
+  {
+    "Parts": [
+      {
+        "Sku": "SKU-014-MOTOR-N",
+        "Qty": 2
+      }
+    ]
+  },
+  {
+    "Parts": [
+      {
+        "Sku": "SKU-015-BEARING-O",
+        "Qty": 16
+      },
+      {
+        "Sku": "SKU-016-VALVE-P",
+        "Qty": 8
+      }
+    ]
+  },
+  {
+    "Parts": [
+      {
+        "Sku": "SKU-017-FILTER-Q",
+        "Qty": 20
+      },
+      {
+        "Sku": "SKU-018-PUMP-R",
+        "Qty": 5
+      }
+    ]
+  },
+  {
+    "Parts": [
+      {
+        "Sku": "SKU-019-RELAY-S",
+        "Qty": 10
+      }
+    ]
+  },
+  {
+    "Parts": [
+      {
+        "Sku": "SKU-020-DISPLAY-T",
+        "Qty": 3
+      },
+      {
+        "Sku": "SKU-001-WIDGET-A",
+        "Qty": 3
+      }
+    ]
+  },
+  {
+    "Parts": [
+      {
+        "Sku": "SKU-009-CONNECTOR-I",
+        "Qty": 75
+      }
+    ]
+  },
+  {
+    "Parts": [
+      {
+        "Sku": "SKU-010-CABLE-J",
+        "Qty": 40
+      },
+      {
+        "Sku": "SKU-011-PANEL-K",
+        "Qty": 4
+      }
+    ]
+  },
+  {
+    "Parts": [
+      {
+        "Sku": "SKU-004-PART-D",
+        "Qty": 25
+      }
+    ]
+  },
+  {
+    "Parts": [
+      {
+        "Sku": "SKU-005-MODULE-E",
+        "Qty": 10
+      },
+      {
+        "Sku": "SKU-006-ASSEMBLY-F",
+        "Qty": 10
+      }
+    ]
+  },
+  {
+    "Parts": [
+      {
+        "Sku": "SKU-007-BRACKET-G",
+        "Qty": 8
+      },
+      {
+        "Sku": "SKU-008-HOUSING-H",
+        "Qty": 8
+      }
+    ]
+  },
+  {
+    "Parts": [
+      {
+        "Sku": "SKU-012-SWITCH-L",
+        "Qty": 6
+      }
+    ]
+  },
+  {
+    "Parts": [
+      {
+        "Sku": "SKU-013-SENSOR-M",
+        "Qty": 18
+      },
+      {
+        "Sku": "SKU-014-MOTOR-N",
+        "Qty": 6
+      }
+    ]
+  },
+  {
+    "Parts": [
+      {
+        "Sku": "SKU-015-BEARING-O",
+        "Qty": 12
+      }
+    ]
+  },
+  {
+    "Parts": [
+      {
+        "Sku": "SKU-016-VALVE-P",
+        "Qty": 3
+      },
+      {
+        "Sku": "SKU-017-FILTER-Q",
+        "Qty": 6
+      },
+      {
+        "Sku": "SKU-018-PUMP-R",
+        "Qty": 3
+      }
+    ]
+  },
+  {
+    "Parts": [
+      {
+        "Sku": "SKU-019-RELAY-S",
+        "Qty": 15
+      }
+    ]
+  },
+  {
+    "Parts": [
+      {
+        "Sku": "SKU-020-DISPLAY-T",
+        "Qty": 1
+      }
+    ]
+  },
+  {
+    "Parts": [
+      {
+        "Sku": "SKU-001-WIDGET-A",
+        "Qty": 50
+      },
+      {
+        "Sku": "SKU-002-GADGET-B",
+        "Qty": 50
+      }
+    ]
+  },
+  {
+    "Parts": [
+      {
+        "Sku": "SKU-003-COMPONENT-C",
+        "Qty": 30
+      }
+    ]
+  },
+  {
+    "Parts": [
+      {
+        "Sku": "SKU-010-CABLE-J",
+        "Qty": 60
+      },
+      {
+        "Sku": "SKU-009-CONNECTOR-I",
+        "Qty": 120
+      }
+    ]
+  },
+  {
+    "Parts": [
+      {
+        "Sku": "SKU-011-PANEL-K",
+        "Qty": 12
+      },
+      {
+        "Sku": "SKU-012-SWITCH-L",
+        "Qty": 24
+      }
+    ]
+  },
+  {
+    "Parts": [
+      {
+        "Sku": "SKU-014-MOTOR-N",
+        "Qty": 4
+      },
+      {
+        "Sku": "SKU-015-BEARING-O",
+        "Qty": 8
+      }
+    ]
+  }
+]

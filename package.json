@@ -1,17 +1,15 @@
 {
-  "name": "sutil-app",
+  "name": "hackunit",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "build": "dotnet fable src/App -o build && vite build",
-    "start": "dotnet fable watch src/App --verbose -o build --run vite",
-    "preview": "vite preview",
-    "clean": "dotnet fable clean -o build --yes",
-    "tests:start": "(cd tests; dotnet fable watch . --verbose --run vite)"
+    "tests:clean": "dotnet fable clean -o tests/build --yes",
+    "tests:start": "dotnet fable watch tests/tests.fsproj -o tests/build --verbose --runWatch npm run tests:node",
+    "tests:build": "dotnet fable tests/tests.fsproj -o tests/build ",
+    "tests:node": "mocha tests/build"
   },
   "devDependencies": {
-    "mocha": "^11.7.4",
-    "vite": "^5.1.4"
+    "mocha": "^11.7.4"
   }
 }

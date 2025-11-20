@@ -5,6 +5,6 @@ node_modules
 **/obj
 **/dist
 build
+tests/build
 package-lock.json
-
 .fake
