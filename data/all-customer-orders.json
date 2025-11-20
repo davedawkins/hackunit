@@ -1,252 +1,1392 @@
 [
   {
     "DateReceived": "2025-11-15T10:30:00Z",
-    "Customer": {"Name": "John Smith", "Address": {"Line1": "123 Main Street", "Line2": "Apt 4B", "Town": "London", "Postcode": "SW1A 1AA", "Country": "United Kingdom"}},
-    "Order": {"Parts": [{"Sku": "SKU-001-WIDGET-A", "Qty": 5}, {"Sku": "SKU-002-GADGET-B", "Qty": 3}]}
+    "Customer": {
+      "Id": "CUST-001",
+      "Name": "John Smith",
+      "Address": {
+        "Id": "ADDR-001",
+        "Line1": "123 Main Street",
+        "Line2": "Apt 4B",
+        "Town": "London",
+        "Postcode": "SW1A 1AA",
+        "Country": "United Kingdom"
+      }
+    },
+    "Order": {
+      "Parts": [
+        {
+          "Sku": "SKU-001-WIDGET-A",
+          "Qty": 5
+        },
+        {
+          "Sku": "SKU-002-GADGET-B",
+          "Qty": 3
+        }
+      ],
+      "Id": "ORD-001"
+    },
+    "Id": "CO-001"
   },
   {
     "DateReceived": "2025-11-15T11:45:00Z",
-    "Customer": {"Name": "Jane Doe", "Address": {"Line1": "456 Oak Avenue", "Line2": null, "Town": "Manchester", "Postcode": "M1 1AA", "Country": "United Kingdom"}},
-    "Order": {"Parts": [{"Sku": "SKU-003-COMPONENT-C", "Qty": 10}]}
+    "Customer": {
+      "Id": "CUST-002",
+      "Name": "Jane Doe",
+      "Address": {
+        "Id": "ADDR-002",
+        "Line1": "456 Oak Avenue",
+        "Line2": null,
+        "Town": "Manchester",
+        "Postcode": "M1 1AA",
+        "Country": "United Kingdom"
+      }
+    },
+    "Order": {
+      "Parts": [
+        {
+          "Sku": "SKU-003-COMPONENT-C",
+          "Qty": 10
+        }
+      ],
+      "Id": "ORD-002"
+    },
+    "Id": "CO-002"
   },
   {
     "DateReceived": "2025-11-15T14:20:00Z",
-    "Customer": {"Name": "Acme Corporation", "Address": {"Line1": "789 Industrial Park", "Line2": "Building C", "Town": "Birmingham", "Postcode": "B1 1AA", "Country": "United Kingdom"}},
-    "Order": {"Parts": [{"Sku": "SKU-001-WIDGET-A", "Qty": 2}, {"Sku": "SKU-004-PART-D", "Qty": 7}, {"Sku": "SKU-005-MODULE-E", "Qty": 1}]}
+    "Customer": {
+      "Id": "CUST-003",
+      "Name": "Acme Corporation",
+      "Address": {
+        "Id": "ADDR-003",
+        "Line1": "789 Industrial Park",
+        "Line2": "Building C",
+        "Town": "Birmingham",
+        "Postcode": "B1 1AA",
+        "Country": "United Kingdom"
+      }
+    },
+    "Order": {
+      "Parts": [
+        {
+          "Sku": "SKU-001-WIDGET-A",
+          "Qty": 2
+        },
+        {
+          "Sku": "SKU-004-PART-D",
+          "Qty": 7
+        },
+        {
+          "Sku": "SKU-005-MODULE-E",
+          "Qty": 1
+        }
+      ],
+      "Id": "ORD-003"
+    },
+    "Id": "CO-003"
   },
   {
     "DateReceived": "2025-11-16T08:00:00Z",
-    "Customer": {"Name": "Sarah Johnson", "Address": {"Line1": "22 Park Lane", "Line2": null, "Town": "Leeds", "Postcode": "LS1 5QT", "Country": "United Kingdom"}},
-    "Order": {"Parts": [{"Sku": "SKU-006-ASSEMBLY-F", "Qty": 4}]}
+    "Customer": {
+      "Id": "CUST-004",
+      "Name": "Sarah Johnson",
+      "Address": {
+        "Id": "ADDR-004",
+        "Line1": "22 Park Lane",
+        "Line2": null,
+        "Town": "Leeds",
+        "Postcode": "LS1 5QT",
+        "Country": "United Kingdom"
+      }
+    },
+    "Order": {
+      "Parts": [
+        {
+          "Sku": "SKU-006-ASSEMBLY-F",
+          "Qty": 4
+        }
+      ],
+      "Id": "ORD-004"
+    },
+    "Id": "CO-004"
   },
   {
     "DateReceived": "2025-11-16T09:30:00Z",
-    "Customer": {"Name": "TechStart Ltd", "Address": {"Line1": "15 Innovation Way", "Line2": "Suite 200", "Town": "Edinburgh", "Postcode": "EH1 2NG", "Country": "United Kingdom"}},
-    "Order": {"Parts": [{"Sku": "SKU-007-BRACKET-G", "Qty": 15}, {"Sku": "SKU-008-HOUSING-H", "Qty": 8}]}
+    "Customer": {
+      "Id": "CUST-005",
+      "Name": "TechStart Ltd",
+      "Address": {
+        "Id": "ADDR-005",
+        "Line1": "15 Innovation Way",
+        "Line2": "Suite 200",
+        "Town": "Edinburgh",
+        "Postcode": "EH1 2NG",
+        "Country": "United Kingdom"
+      }
+    },
+    "Order": {
+      "Parts": [
+        {
+          "Sku": "SKU-007-BRACKET-G",
+          "Qty": 15
+        },
+        {
+          "Sku": "SKU-008-HOUSING-H",
+          "Qty": 8
+        }
+      ],
+      "Id": "ORD-005"
+    },
+    "Id": "CO-005"
   },
   {
     "DateReceived": "2025-11-16T11:15:00Z",
-    "Customer": {"Name": "Michael Brown", "Address": {"Line1": "88 High Street", "Line2": null, "Town": "Bristol", "Postcode": "BS1 4DJ", "Country": "United Kingdom"}},
-    "Order": {"Parts": [{"Sku": "SKU-009-CONNECTOR-I", "Qty": 50}, {"Sku": "SKU-010-CABLE-J", "Qty": 25}]}
+    "Customer": {
+      "Id": "CUST-006",
+      "Name": "Michael Brown",
+      "Address": {
+        "Id": "ADDR-006",
+        "Line1": "88 High Street",
+        "Line2": null,
+        "Town": "Bristol",
+        "Postcode": "BS1 4DJ",
+        "Country": "United Kingdom"
+      }
+    },
+    "Order": {
+      "Parts": [
+        {
+          "Sku": "SKU-009-CONNECTOR-I",
+          "Qty": 50
+        },
+        {
+          "Sku": "SKU-010-CABLE-J",
+          "Qty": 25
+        }
+      ],
+      "Id": "ORD-006"
+    },
+    "Id": "CO-006"
   },
   {
     "DateReceived": "2025-11-16T13:45:00Z",
-    "Customer": {"Name": "Global Supplies Inc", "Address": {"Line1": "300 Commerce Road", "Line2": "Warehouse 7", "Town": "Liverpool", "Postcode": "L1 8JQ", "Country": "United Kingdom"}},
-    "Order": {"Parts": [{"Sku": "SKU-011-PANEL-K", "Qty": 6}]}
+    "Customer": {
+      "Id": "CUST-007",
+      "Name": "Global Supplies Inc",
+      "Address": {
+        "Id": "ADDR-007",
+        "Line1": "300 Commerce Road",
+        "Line2": "Warehouse 7",
+        "Town": "Liverpool",
+        "Postcode": "L1 8JQ",
+        "Country": "United Kingdom"
+      }
+    },
+    "Order": {
+      "Parts": [
+        {
+          "Sku": "SKU-011-PANEL-K",
+          "Qty": 6
+        }
+      ],
+      "Id": "ORD-007"
+    },
+    "Id": "CO-007"
   },
   {
     "DateReceived": "2025-11-16T15:20:00Z",
-    "Customer": {"Name": "Emma Wilson", "Address": {"Line1": "17 Garden Close", "Line2": "Flat 2", "Town": "Glasgow", "Postcode": "G1 1RD", "Country": "United Kingdom"}},
-    "Order": {"Parts": [{"Sku": "SKU-012-SWITCH-L", "Qty": 12}, {"Sku": "SKU-013-SENSOR-M", "Qty": 12}]}
+    "Customer": {
+      "Id": "CUST-008",
+      "Name": "Emma Wilson",
+      "Address": {
+        "Id": "ADDR-008",
+        "Line1": "17 Garden Close",
+        "Line2": "Flat 2",
+        "Town": "Glasgow",
+        "Postcode": "G1 1RD",
+        "Country": "United Kingdom"
+      }
+    },
+    "Order": {
+      "Parts": [
+        {
+          "Sku": "SKU-012-SWITCH-L",
+          "Qty": 12
+        },
+        {
+          "Sku": "SKU-013-SENSOR-M",
+          "Qty": 12
+        }
+      ],
+      "Id": "ORD-008"
+    },
+    "Id": "CO-008"
   },
   {
     "DateReceived": "2025-11-17T07:30:00Z",
-    "Customer": {"Name": "Robert Taylor", "Address": {"Line1": "42 Victoria Road", "Line2": null, "Town": "Cardiff", "Postcode": "CF10 3AT", "Country": "United Kingdom"}},
-    "Order": {"Parts": [{"Sku": "SKU-014-MOTOR-N", "Qty": 3}, {"Sku": "SKU-015-BEARING-O", "Qty": 9}]}
+    "Customer": {
+      "Id": "CUST-009",
+      "Name": "Robert Taylor",
+      "Address": {
+        "Id": "ADDR-009",
+        "Line1": "42 Victoria Road",
+        "Line2": null,
+        "Town": "Cardiff",
+        "Postcode": "CF10 3AT",
+        "Country": "United Kingdom"
+      }
+    },
+    "Order": {
+      "Parts": [
+        {
+          "Sku": "SKU-014-MOTOR-N",
+          "Qty": 3
+        },
+        {
+          "Sku": "SKU-015-BEARING-O",
+          "Qty": 9
+        }
+      ],
+      "Id": "ORD-009"
+    },
+    "Id": "CO-009"
   },
   {
     "DateReceived": "2025-11-17T09:00:00Z",
-    "Customer": {"Name": "Premier Manufacturing", "Address": {"Line1": "101 Industrial Estate", "Line2": "Unit 5", "Town": "Newcastle", "Postcode": "NE1 8ST", "Country": "United Kingdom"}},
-    "Order": {"Parts": [{"Sku": "SKU-016-VALVE-P", "Qty": 4}, {"Sku": "SKU-017-FILTER-Q", "Qty": 8}]}
+    "Customer": {
+      "Id": "CUST-010",
+      "Name": "Premier Manufacturing",
+      "Address": {
+        "Id": "ADDR-010",
+        "Line1": "101 Industrial Estate",
+        "Line2": "Unit 5",
+        "Town": "Newcastle",
+        "Postcode": "NE1 8ST",
+        "Country": "United Kingdom"
+      }
+    },
+    "Order": {
+      "Parts": [
+        {
+          "Sku": "SKU-016-VALVE-P",
+          "Qty": 4
+        },
+        {
+          "Sku": "SKU-017-FILTER-Q",
+          "Qty": 8
+        }
+      ],
+      "Id": "ORD-010"
+    },
+    "Id": "CO-010"
   },
   {
     "DateReceived": "2025-11-17T10:45:00Z",
-    "Customer": {"Name": "John Smith", "Address": {"Line1": "123 Main Street", "Line2": "Apt 4B", "Town": "London", "Postcode": "SW1A 1AA", "Country": "United Kingdom"}},
-    "Order": {"Parts": [{"Sku": "SKU-018-PUMP-R", "Qty": 2}]}
+    "Customer": {
+      "Id": "CUST-001",
+      "Name": "John Smith",
+      "Address": {
+        "Id": "ADDR-001",
+        "Line1": "123 Main Street",
+        "Line2": "Apt 4B",
+        "Town": "London",
+        "Postcode": "SW1A 1AA",
+        "Country": "United Kingdom"
+      }
+    },
+    "Order": {
+      "Parts": [
+        {
+          "Sku": "SKU-018-PUMP-R",
+          "Qty": 2
+        }
+      ],
+      "Id": "ORD-011"
+    },
+    "Id": "CO-011"
   },
   {
     "DateReceived": "2025-11-17T12:30:00Z",
-    "Customer": {"Name": "Jane Doe", "Address": {"Line1": "456 Oak Avenue", "Line2": null, "Town": "Manchester", "Postcode": "M1 1AA", "Country": "United Kingdom"}},
-    "Order": {"Parts": [{"Sku": "SKU-019-RELAY-S", "Qty": 20}, {"Sku": "SKU-020-DISPLAY-T", "Qty": 5}]}
+    "Customer": {
+      "Id": "CUST-002",
+      "Name": "Jane Doe",
+      "Address": {
+        "Id": "ADDR-002",
+        "Line1": "456 Oak Avenue",
+        "Line2": null,
+        "Town": "Manchester",
+        "Postcode": "M1 1AA",
+        "Country": "United Kingdom"
+      }
+    },
+    "Order": {
+      "Parts": [
+        {
+          "Sku": "SKU-019-RELAY-S",
+          "Qty": 20
+        },
+        {
+          "Sku": "SKU-020-DISPLAY-T",
+          "Qty": 5
+        }
+      ],
+      "Id": "ORD-012"
+    },
+    "Id": "CO-012"
   },
   {
     "DateReceived": "2025-11-17T14:00:00Z",
-    "Customer": {"Name": "Acme Corporation", "Address": {"Line1": "789 Industrial Park", "Line2": "Building C", "Town": "Birmingham", "Postcode": "B1 1AA", "Country": "United Kingdom"}},
-    "Order": {"Parts": [{"Sku": "SKU-001-WIDGET-A", "Qty": 100}]}
+    "Customer": {
+      "Id": "CUST-003",
+      "Name": "Acme Corporation",
+      "Address": {
+        "Id": "ADDR-003",
+        "Line1": "789 Industrial Park",
+        "Line2": "Building C",
+        "Town": "Birmingham",
+        "Postcode": "B1 1AA",
+        "Country": "United Kingdom"
+      }
+    },
+    "Order": {
+      "Parts": [
+        {
+          "Sku": "SKU-001-WIDGET-A",
+          "Qty": 100
+        }
+      ],
+      "Id": "ORD-013"
+    },
+    "Id": "CO-013"
   },
   {
     "DateReceived": "2025-11-17T15:15:00Z",
-    "Customer": {"Name": "Sarah Johnson", "Address": {"Line1": "22 Park Lane", "Line2": null, "Town": "Leeds", "Postcode": "LS1 5QT", "Country": "United Kingdom"}},
-    "Order": {"Parts": [{"Sku": "SKU-002-GADGET-B", "Qty": 7}, {"Sku": "SKU-003-COMPONENT-C", "Qty": 14}]}
+    "Customer": {
+      "Id": "CUST-004",
+      "Name": "Sarah Johnson",
+      "Address": {
+        "Id": "ADDR-004",
+        "Line1": "22 Park Lane",
+        "Line2": null,
+        "Town": "Leeds",
+        "Postcode": "LS1 5QT",
+        "Country": "United Kingdom"
+      }
+    },
+    "Order": {
+      "Parts": [
+        {
+          "Sku": "SKU-002-GADGET-B",
+          "Qty": 7
+        },
+        {
+          "Sku": "SKU-003-COMPONENT-C",
+          "Qty": 14
+        }
+      ],
+      "Id": "ORD-014"
+    },
+    "Id": "CO-014"
   },
   {
     "DateReceived": "2025-11-18T08:30:00Z",
-    "Customer": {"Name": "TechStart Ltd", "Address": {"Line1": "15 Innovation Way", "Line2": "Suite 200", "Town": "Edinburgh", "Postcode": "EH1 2NG", "Country": "United Kingdom"}},
-    "Order": {"Parts": [{"Sku": "SKU-005-MODULE-E", "Qty": 6}, {"Sku": "SKU-006-ASSEMBLY-F", "Qty": 6}, {"Sku": "SKU-007-BRACKET-G", "Qty": 12}]}
+    "Customer": {
+      "Id": "CUST-005",
+      "Name": "TechStart Ltd",
+      "Address": {
+        "Id": "ADDR-005",
+        "Line1": "15 Innovation Way",
+        "Line2": "Suite 200",
+        "Town": "Edinburgh",
+        "Postcode": "EH1 2NG",
+        "Country": "United Kingdom"
+      }
+    },
+    "Order": {
+      "Parts": [
+        {
+          "Sku": "SKU-005-MODULE-E",
+          "Qty": 6
+        },
+        {
+          "Sku": "SKU-006-ASSEMBLY-F",
+          "Qty": 6
+        },
+        {
+          "Sku": "SKU-007-BRACKET-G",
+          "Qty": 12
+        }
+      ],
+      "Id": "ORD-015"
+    },
+    "Id": "CO-015"
   },
   {
     "DateReceived": "2025-11-18T09:45:00Z",
-    "Customer": {"Name": "Michael Brown", "Address": {"Line1": "88 High Street", "Line2": null, "Town": "Bristol", "Postcode": "BS1 4DJ", "Country": "United Kingdom"}},
-    "Order": {"Parts": [{"Sku": "SKU-008-HOUSING-H", "Qty": 3}]}
+    "Customer": {
+      "Id": "CUST-006",
+      "Name": "Michael Brown",
+      "Address": {
+        "Id": "ADDR-006",
+        "Line1": "88 High Street",
+        "Line2": null,
+        "Town": "Bristol",
+        "Postcode": "BS1 4DJ",
+        "Country": "United Kingdom"
+      }
+    },
+    "Order": {
+      "Parts": [
+        {
+          "Sku": "SKU-008-HOUSING-H",
+          "Qty": 3
+        }
+      ],
+      "Id": "ORD-016"
+    },
+    "Id": "CO-016"
   },
   {
     "DateReceived": "2025-11-18T11:00:00Z",
-    "Customer": {"Name": "Global Supplies Inc", "Address": {"Line1": "300 Commerce Road", "Line2": "Warehouse 7", "Town": "Liverpool", "Postcode": "L1 8JQ", "Country": "United Kingdom"}},
-    "Order": {"Parts": [{"Sku": "SKU-010-CABLE-J", "Qty": 100}, {"Sku": "SKU-009-CONNECTOR-I", "Qty": 200}]}
+    "Customer": {
+      "Id": "CUST-007",
+      "Name": "Global Supplies Inc",
+      "Address": {
+        "Id": "ADDR-007",
+        "Line1": "300 Commerce Road",
+        "Line2": "Warehouse 7",
+        "Town": "Liverpool",
+        "Postcode": "L1 8JQ",
+        "Country": "United Kingdom"
+      }
+    },
+    "Order": {
+      "Parts": [
+        {
+          "Sku": "SKU-010-CABLE-J",
+          "Qty": 100
+        },
+        {
+          "Sku": "SKU-009-CONNECTOR-I",
+          "Qty": 200
+        }
+      ],
+      "Id": "ORD-017"
+    },
+    "Id": "CO-017"
   },
   {
     "DateReceived": "2025-11-18T12:20:00Z",
-    "Customer": {"Name": "Emma Wilson", "Address": {"Line1": "17 Garden Close", "Line2": "Flat 2", "Town": "Glasgow", "Postcode": "G1 1RD", "Country": "United Kingdom"}},
-    "Order": {"Parts": [{"Sku": "SKU-011-PANEL-K", "Qty": 10}, {"Sku": "SKU-012-SWITCH-L", "Qty": 10}]}
+    "Customer": {
+      "Id": "CUST-008",
+      "Name": "Emma Wilson",
+      "Address": {
+        "Id": "ADDR-008",
+        "Line1": "17 Garden Close",
+        "Line2": "Flat 2",
+        "Town": "Glasgow",
+        "Postcode": "G1 1RD",
+        "Country": "United Kingdom"
+      }
+    },
+    "Order": {
+      "Parts": [
+        {
+          "Sku": "SKU-011-PANEL-K",
+          "Qty": 10
+        },
+        {
+          "Sku": "SKU-012-SWITCH-L",
+          "Qty": 10
+        }
+      ],
+      "Id": "ORD-018"
+    },
+    "Id": "CO-018"
   },
   {
     "DateReceived": "2025-11-18T13:40:00Z",
-    "Customer": {"Name": "Robert Taylor", "Address": {"Line1": "42 Victoria Road", "Line2": null, "Town": "Cardiff", "Postcode": "CF10 3AT", "Country": "United Kingdom"}},
-    "Order": {"Parts": [{"Sku": "SKU-013-SENSOR-M", "Qty": 25}]}
+    "Customer": {
+      "Id": "CUST-009",
+      "Name": "Robert Taylor",
+      "Address": {
+        "Id": "ADDR-009",
+        "Line1": "42 Victoria Road",
+        "Line2": null,
+        "Town": "Cardiff",
+        "Postcode": "CF10 3AT",
+        "Country": "United Kingdom"
+      }
+    },
+    "Order": {
+      "Parts": [
+        {
+          "Sku": "SKU-013-SENSOR-M",
+          "Qty": 25
+        }
+      ],
+      "Id": "ORD-019"
+    },
+    "Id": "CO-019"
   },
   {
     "DateReceived": "2025-11-18T15:00:00Z",
-    "Customer": {"Name": "Premier Manufacturing", "Address": {"Line1": "101 Industrial Estate", "Line2": "Unit 5", "Town": "Newcastle", "Postcode": "NE1 8ST", "Country": "United Kingdom"}},
-    "Order": {"Parts": [{"Sku": "SKU-014-MOTOR-N", "Qty": 1}, {"Sku": "SKU-015-BEARING-O", "Qty": 4}, {"Sku": "SKU-016-VALVE-P", "Qty": 2}]}
+    "Customer": {
+      "Id": "CUST-010",
+      "Name": "Premier Manufacturing",
+      "Address": {
+        "Id": "ADDR-010",
+        "Line1": "101 Industrial Estate",
+        "Line2": "Unit 5",
+        "Town": "Newcastle",
+        "Postcode": "NE1 8ST",
+        "Country": "United Kingdom"
+      }
+    },
+    "Order": {
+      "Parts": [
+        {
+          "Sku": "SKU-014-MOTOR-N",
+          "Qty": 1
+        },
+        {
+          "Sku": "SKU-015-BEARING-O",
+          "Qty": 4
+        },
+        {
+          "Sku": "SKU-016-VALVE-P",
+          "Qty": 2
+        }
+      ],
+      "Id": "ORD-020"
+    },
+    "Id": "CO-020"
   },
   {
     "DateReceived": "2025-11-19T08:00:00Z",
-    "Customer": {"Name": "John Smith", "Address": {"Line1": "123 Main Street", "Line2": "Apt 4B", "Town": "London", "Postcode": "SW1A 1AA", "Country": "United Kingdom"}},
-    "Order": {"Parts": [{"Sku": "SKU-017-FILTER-Q", "Qty": 12}]}
+    "Customer": {
+      "Id": "CUST-001",
+      "Name": "John Smith",
+      "Address": {
+        "Id": "ADDR-001",
+        "Line1": "123 Main Street",
+        "Line2": "Apt 4B",
+        "Town": "London",
+        "Postcode": "SW1A 1AA",
+        "Country": "United Kingdom"
+      }
+    },
+    "Order": {
+      "Parts": [
+        {
+          "Sku": "SKU-017-FILTER-Q",
+          "Qty": 12
+        }
+      ],
+      "Id": "ORD-021"
+    },
+    "Id": "CO-021"
   },
   {
     "DateReceived": "2025-11-19T09:20:00Z",
-    "Customer": {"Name": "Jane Doe", "Address": {"Line1": "456 Oak Avenue", "Line2": null, "Town": "Manchester", "Postcode": "M1 1AA", "Country": "United Kingdom"}},
-    "Order": {"Parts": [{"Sku": "SKU-018-PUMP-R", "Qty": 1}, {"Sku": "SKU-019-RELAY-S", "Qty": 5}]}
+    "Customer": {
+      "Id": "CUST-002",
+      "Name": "Jane Doe",
+      "Address": {
+        "Id": "ADDR-002",
+        "Line1": "456 Oak Avenue",
+        "Line2": null,
+        "Town": "Manchester",
+        "Postcode": "M1 1AA",
+        "Country": "United Kingdom"
+      }
+    },
+    "Order": {
+      "Parts": [
+        {
+          "Sku": "SKU-018-PUMP-R",
+          "Qty": 1
+        },
+        {
+          "Sku": "SKU-019-RELAY-S",
+          "Qty": 5
+        }
+      ],
+      "Id": "ORD-022"
+    },
+    "Id": "CO-022"
   },
   {
     "DateReceived": "2025-11-19T10:30:00Z",
-    "Customer": {"Name": "Acme Corporation", "Address": {"Line1": "789 Industrial Park", "Line2": "Building C", "Town": "Birmingham", "Postcode": "B1 1AA", "Country": "United Kingdom"}},
-    "Order": {"Parts": [{"Sku": "SKU-020-DISPLAY-T", "Qty": 8}]}
+    "Customer": {
+      "Id": "CUST-003",
+      "Name": "Acme Corporation",
+      "Address": {
+        "Id": "ADDR-003",
+        "Line1": "789 Industrial Park",
+        "Line2": "Building C",
+        "Town": "Birmingham",
+        "Postcode": "B1 1AA",
+        "Country": "United Kingdom"
+      }
+    },
+    "Order": {
+      "Parts": [
+        {
+          "Sku": "SKU-020-DISPLAY-T",
+          "Qty": 8
+        }
+      ],
+      "Id": "ORD-023"
+    },
+    "Id": "CO-023"
   },
   {
     "DateReceived": "2025-11-19T11:45:00Z",
-    "Customer": {"Name": "Sarah Johnson", "Address": {"Line1": "22 Park Lane", "Line2": null, "Town": "Leeds", "Postcode": "LS1 5QT", "Country": "United Kingdom"}},
-    "Order": {"Parts": [{"Sku": "SKU-001-WIDGET-A", "Qty": 15}, {"Sku": "SKU-004-PART-D", "Qty": 15}]}
+    "Customer": {
+      "Id": "CUST-004",
+      "Name": "Sarah Johnson",
+      "Address": {
+        "Id": "ADDR-004",
+        "Line1": "22 Park Lane",
+        "Line2": null,
+        "Town": "Leeds",
+        "Postcode": "LS1 5QT",
+        "Country": "United Kingdom"
+      }
+    },
+    "Order": {
+      "Parts": [
+        {
+          "Sku": "SKU-001-WIDGET-A",
+          "Qty": 15
+        },
+        {
+          "Sku": "SKU-004-PART-D",
+          "Qty": 15
+        }
+      ],
+      "Id": "ORD-024"
+    },
+    "Id": "CO-024"
   },
   {
     "DateReceived": "2025-11-19T13:00:00Z",
-    "Customer": {"Name": "TechStart Ltd", "Address": {"Line1": "15 Innovation Way", "Line2": "Suite 200", "Town": "Edinburgh", "Postcode": "EH1 2NG", "Country": "United Kingdom"}},
-    "Order": {"Parts": [{"Sku": "SKU-002-GADGET-B", "Qty": 20}]}
+    "Customer": {
+      "Id": "CUST-005",
+      "Name": "TechStart Ltd",
+      "Address": {
+        "Id": "ADDR-005",
+        "Line1": "15 Innovation Way",
+        "Line2": "Suite 200",
+        "Town": "Edinburgh",
+        "Postcode": "EH1 2NG",
+        "Country": "United Kingdom"
+      }
+    },
+    "Order": {
+      "Parts": [
+        {
+          "Sku": "SKU-002-GADGET-B",
+          "Qty": 20
+        }
+      ],
+      "Id": "ORD-025"
+    },
+    "Id": "CO-025"
   },
   {
     "DateReceived": "2025-11-19T14:15:00Z",
-    "Customer": {"Name": "Michael Brown", "Address": {"Line1": "88 High Street", "Line2": null, "Town": "Bristol", "Postcode": "BS1 4DJ", "Country": "United Kingdom"}},
-    "Order": {"Parts": [{"Sku": "SKU-003-COMPONENT-C", "Qty": 5}, {"Sku": "SKU-005-MODULE-E", "Qty": 5}]}
+    "Customer": {
+      "Id": "CUST-006",
+      "Name": "Michael Brown",
+      "Address": {
+        "Id": "ADDR-006",
+        "Line1": "88 High Street",
+        "Line2": null,
+        "Town": "Bristol",
+        "Postcode": "BS1 4DJ",
+        "Country": "United Kingdom"
+      }
+    },
+    "Order": {
+      "Parts": [
+        {
+          "Sku": "SKU-003-COMPONENT-C",
+          "Qty": 5
+        },
+        {
+          "Sku": "SKU-005-MODULE-E",
+          "Qty": 5
+        }
+      ],
+      "Id": "ORD-026"
+    },
+    "Id": "CO-026"
   },
   {
     "DateReceived": "2025-11-19T15:30:00Z",
-    "Customer": {"Name": "Global Supplies Inc", "Address": {"Line1": "300 Commerce Road", "Line2": "Warehouse 7", "Town": "Liverpool", "Postcode": "L1 8JQ", "Country": "United Kingdom"}},
-    "Order": {"Parts": [{"Sku": "SKU-006-ASSEMBLY-F", "Qty": 2}, {"Sku": "SKU-007-BRACKET-G", "Qty": 4}, {"Sku": "SKU-008-HOUSING-H", "Qty": 2}]}
+    "Customer": {
+      "Id": "CUST-007",
+      "Name": "Global Supplies Inc",
+      "Address": {
+        "Id": "ADDR-007",
+        "Line1": "300 Commerce Road",
+        "Line2": "Warehouse 7",
+        "Town": "Liverpool",
+        "Postcode": "L1 8JQ",
+        "Country": "United Kingdom"
+      }
+    },
+    "Order": {
+      "Parts": [
+        {
+          "Sku": "SKU-006-ASSEMBLY-F",
+          "Qty": 2
+        },
+        {
+          "Sku": "SKU-007-BRACKET-G",
+          "Qty": 4
+        },
+        {
+          "Sku": "SKU-008-HOUSING-H",
+          "Qty": 2
+        }
+      ],
+      "Id": "ORD-027"
+    },
+    "Id": "CO-027"
   },
   {
     "DateReceived": "2025-11-20T07:00:00Z",
-    "Customer": {"Name": "Emma Wilson", "Address": {"Line1": "17 Garden Close", "Line2": "Flat 2", "Town": "Glasgow", "Postcode": "G1 1RD", "Country": "United Kingdom"}},
-    "Order": {"Parts": [{"Sku": "SKU-011-PANEL-K", "Qty": 8}]}
+    "Customer": {
+      "Id": "CUST-008",
+      "Name": "Emma Wilson",
+      "Address": {
+        "Id": "ADDR-008",
+        "Line1": "17 Garden Close",
+        "Line2": "Flat 2",
+        "Town": "Glasgow",
+        "Postcode": "G1 1RD",
+        "Country": "United Kingdom"
+      }
+    },
+    "Order": {
+      "Parts": [
+        {
+          "Sku": "SKU-011-PANEL-K",
+          "Qty": 8
+        }
+      ],
+      "Id": "ORD-028"
+    },
+    "Id": "CO-028"
   },
   {
     "DateReceived": "2025-11-20T08:15:00Z",
-    "Customer": {"Name": "Robert Taylor", "Address": {"Line1": "42 Victoria Road", "Line2": null, "Town": "Cardiff", "Postcode": "CF10 3AT", "Country": "United Kingdom"}},
-    "Order": {"Parts": [{"Sku": "SKU-012-SWITCH-L", "Qty": 30}, {"Sku": "SKU-013-SENSOR-M", "Qty": 30}]}
+    "Customer": {
+      "Id": "CUST-009",
+      "Name": "Robert Taylor",
+      "Address": {
+        "Id": "ADDR-009",
+        "Line1": "42 Victoria Road",
+        "Line2": null,
+        "Town": "Cardiff",
+        "Postcode": "CF10 3AT",
+        "Country": "United Kingdom"
+      }
+    },
+    "Order": {
+      "Parts": [
+        {
+          "Sku": "SKU-012-SWITCH-L",
+          "Qty": 30
+        },
+        {
+          "Sku": "SKU-013-SENSOR-M",
+          "Qty": 30
+        }
+      ],
+      "Id": "ORD-029"
+    },
+    "Id": "CO-029"
   },
   {
     "DateReceived": "2025-11-20T09:30:00Z",
-    "Customer": {"Name": "Premier Manufacturing", "Address": {"Line1": "101 Industrial Estate", "Line2": "Unit 5", "Town": "Newcastle", "Postcode": "NE1 8ST", "Country": "United Kingdom"}},
-    "Order": {"Parts": [{"Sku": "SKU-014-MOTOR-N", "Qty": 2}]}
+    "Customer": {
+      "Id": "CUST-010",
+      "Name": "Premier Manufacturing",
+      "Address": {
+        "Id": "ADDR-010",
+        "Line1": "101 Industrial Estate",
+        "Line2": "Unit 5",
+        "Town": "Newcastle",
+        "Postcode": "NE1 8ST",
+        "Country": "United Kingdom"
+      }
+    },
+    "Order": {
+      "Parts": [
+        {
+          "Sku": "SKU-014-MOTOR-N",
+          "Qty": 2
+        }
+      ],
+      "Id": "ORD-030"
+    },
+    "Id": "CO-030"
   },
   {
     "DateReceived": "2025-11-20T10:45:00Z",
-    "Customer": {"Name": "John Smith", "Address": {"Line1": "123 Main Street", "Line2": "Apt 4B", "Town": "London", "Postcode": "SW1A 1AA", "Country": "United Kingdom"}},
-    "Order": {"Parts": [{"Sku": "SKU-015-BEARING-O", "Qty": 16}, {"Sku": "SKU-016-VALVE-P", "Qty": 8}]}
+    "Customer": {
+      "Id": "CUST-001",
+      "Name": "John Smith",
+      "Address": {
+        "Id": "ADDR-001",
+        "Line1": "123 Main Street",
+        "Line2": "Apt 4B",
+        "Town": "London",
+        "Postcode": "SW1A 1AA",
+        "Country": "United Kingdom"
+      }
+    },
+    "Order": {
+      "Parts": [
+        {
+          "Sku": "SKU-015-BEARING-O",
+          "Qty": 16
+        },
+        {
+          "Sku": "SKU-016-VALVE-P",
+          "Qty": 8
+        }
+      ],
+      "Id": "ORD-031"
+    },
+    "Id": "CO-031"
   },
   {
     "DateReceived": "2025-11-20T12:00:00Z",
-    "Customer": {"Name": "Jane Doe", "Address": {"Line1": "456 Oak Avenue", "Line2": null, "Town": "Manchester", "Postcode": "M1 1AA", "Country": "United Kingdom"}},
-    "Order": {"Parts": [{"Sku": "SKU-017-FILTER-Q", "Qty": 20}, {"Sku": "SKU-018-PUMP-R", "Qty": 5}]}
+    "Customer": {
+      "Id": "CUST-002",
+      "Name": "Jane Doe",
+      "Address": {
+        "Id": "ADDR-002",
+        "Line1": "456 Oak Avenue",
+        "Line2": null,
+        "Town": "Manchester",
+        "Postcode": "M1 1AA",
+        "Country": "United Kingdom"
+      }
+    },
+    "Order": {
+      "Parts": [
+        {
+          "Sku": "SKU-017-FILTER-Q",
+          "Qty": 20
+        },
+        {
+          "Sku": "SKU-018-PUMP-R",
+          "Qty": 5
+        }
+      ],
+      "Id": "ORD-032"
+    },
+    "Id": "CO-032"
   },
   {
     "DateReceived": "2025-11-20T13:15:00Z",
-    "Customer": {"Name": "Acme Corporation", "Address": {"Line1": "789 Industrial Park", "Line2": "Building C", "Town": "Birmingham", "Postcode": "B1 1AA", "Country": "United Kingdom"}},
-    "Order": {"Parts": [{"Sku": "SKU-019-RELAY-S", "Qty": 10}]}
+    "Customer": {
+      "Id": "CUST-003",
+      "Name": "Acme Corporation",
+      "Address": {
+        "Id": "ADDR-003",
+        "Line1": "789 Industrial Park",
+        "Line2": "Building C",
+        "Town": "Birmingham",
+        "Postcode": "B1 1AA",
+        "Country": "United Kingdom"
+      }
+    },
+    "Order": {
+      "Parts": [
+        {
+          "Sku": "SKU-019-RELAY-S",
+          "Qty": 10
+        }
+      ],
+      "Id": "ORD-033"
+    },
+    "Id": "CO-033"
   },
   {
     "DateReceived": "2025-11-20T14:30:00Z",
-    "Customer": {"Name": "Sarah Johnson", "Address": {"Line1": "22 Park Lane", "Line2": null, "Town": "Leeds", "Postcode": "LS1 5QT", "Country": "United Kingdom"}},
-    "Order": {"Parts": [{"Sku": "SKU-020-DISPLAY-T", "Qty": 3}, {"Sku": "SKU-001-WIDGET-A", "Qty": 3}]}
+    "Customer": {
+      "Id": "CUST-004",
+      "Name": "Sarah Johnson",
+      "Address": {
+        "Id": "ADDR-004",
+        "Line1": "22 Park Lane",
+        "Line2": null,
+        "Town": "Leeds",
+        "Postcode": "LS1 5QT",
+        "Country": "United Kingdom"
+      }
+    },
+    "Order": {
+      "Parts": [
+        {
+          "Sku": "SKU-020-DISPLAY-T",
+          "Qty": 3
+        },
+        {
+          "Sku": "SKU-001-WIDGET-A",
+          "Qty": 3
+        }
+      ],
+      "Id": "ORD-034"
+    },
+    "Id": "CO-034"
   },
   {
     "DateReceived": "2025-11-15T16:00:00Z",
-    "Customer": {"Name": "TechStart Ltd", "Address": {"Line1": "15 Innovation Way", "Line2": "Suite 200", "Town": "Edinburgh", "Postcode": "EH1 2NG", "Country": "United Kingdom"}},
-    "Order": {"Parts": [{"Sku": "SKU-009-CONNECTOR-I", "Qty": 75}]}
+    "Customer": {
+      "Id": "CUST-005",
+      "Name": "TechStart Ltd",
+      "Address": {
+        "Id": "ADDR-005",
+        "Line1": "15 Innovation Way",
+        "Line2": "Suite 200",
+        "Town": "Edinburgh",
+        "Postcode": "EH1 2NG",
+        "Country": "United Kingdom"
+      }
+    },
+    "Order": {
+      "Parts": [
+        {
+          "Sku": "SKU-009-CONNECTOR-I",
+          "Qty": 75
+        }
+      ],
+      "Id": "ORD-035"
+    },
+    "Id": "CO-035"
   },
   {
     "DateReceived": "2025-11-16T16:30:00Z",
-    "Customer": {"Name": "Michael Brown", "Address": {"Line1": "88 High Street", "Line2": null, "Town": "Bristol", "Postcode": "BS1 4DJ", "Country": "United Kingdom"}},
-    "Order": {"Parts": [{"Sku": "SKU-010-CABLE-J", "Qty": 40}, {"Sku": "SKU-011-PANEL-K", "Qty": 4}]}
+    "Customer": {
+      "Id": "CUST-006",
+      "Name": "Michael Brown",
+      "Address": {
+        "Id": "ADDR-006",
+        "Line1": "88 High Street",
+        "Line2": null,
+        "Town": "Bristol",
+        "Postcode": "BS1 4DJ",
+        "Country": "United Kingdom"
+      }
+    },
+    "Order": {
+      "Parts": [
+        {
+          "Sku": "SKU-010-CABLE-J",
+          "Qty": 40
+        },
+        {
+          "Sku": "SKU-011-PANEL-K",
+          "Qty": 4
+        }
+      ],
+      "Id": "ORD-036"
+    },
+    "Id": "CO-036"
   },
   {
     "DateReceived": "2025-11-17T16:45:00Z",
-    "Customer": {"Name": "Global Supplies Inc", "Address": {"Line1": "300 Commerce Road", "Line2": "Warehouse 7", "Town": "Liverpool", "Postcode": "L1 8JQ", "Country": "United Kingdom"}},
-    "Order": {"Parts": [{"Sku": "SKU-004-PART-D", "Qty": 25}]}
+    "Customer": {
+      "Id": "CUST-007",
+      "Name": "Global Supplies Inc",
+      "Address": {
+        "Id": "ADDR-007",
+        "Line1": "300 Commerce Road",
+        "Line2": "Warehouse 7",
+        "Town": "Liverpool",
+        "Postcode": "L1 8JQ",
+        "Country": "United Kingdom"
+      }
+    },
+    "Order": {
+      "Parts": [
+        {
+          "Sku": "SKU-004-PART-D",
+          "Qty": 25
+        }
+      ],
+      "Id": "ORD-037"
+    },
+    "Id": "CO-037"
   },
   {
     "DateReceived": "2025-11-18T16:00:00Z",
-    "Customer": {"Name": "Emma Wilson", "Address": {"Line1": "17 Garden Close", "Line2": "Flat 2", "Town": "Glasgow", "Postcode": "G1 1RD", "Country": "United Kingdom"}},
-    "Order": {"Parts": [{"Sku": "SKU-005-MODULE-E", "Qty": 10}, {"Sku": "SKU-006-ASSEMBLY-F", "Qty": 10}]}
+    "Customer": {
+      "Id": "CUST-008",
+      "Name": "Emma Wilson",
+      "Address": {
+        "Id": "ADDR-008",
+        "Line1": "17 Garden Close",
+        "Line2": "Flat 2",
+        "Town": "Glasgow",
+        "Postcode": "G1 1RD",
+        "Country": "United Kingdom"
+      }
+    },
+    "Order": {
+      "Parts": [
+        {
+          "Sku": "SKU-005-MODULE-E",
+          "Qty": 10
+        },
+        {
+          "Sku": "SKU-006-ASSEMBLY-F",
+          "Qty": 10
+        }
+      ],
+      "Id": "ORD-038"
+    },
+    "Id": "CO-038"
   },
   {
     "DateReceived": "2025-11-19T16:15:00Z",
-    "Customer": {"Name": "Robert Taylor", "Address": {"Line1": "42 Victoria Road", "Line2": null, "Town": "Cardiff", "Postcode": "CF10 3AT", "Country": "United Kingdom"}},
-    "Order": {"Parts": [{"Sku": "SKU-007-BRACKET-G", "Qty": 8}, {"Sku": "SKU-008-HOUSING-H", "Qty": 8}]}
+    "Customer": {
+      "Id": "CUST-009",
+      "Name": "Robert Taylor",
+      "Address": {
+        "Id": "ADDR-009",
+        "Line1": "42 Victoria Road",
+        "Line2": null,
+        "Town": "Cardiff",
+        "Postcode": "CF10 3AT",
+        "Country": "United Kingdom"
+      }
+    },
+    "Order": {
+      "Parts": [
+        {
+          "Sku": "SKU-007-BRACKET-G",
+          "Qty": 8
+        },
+        {
+          "Sku": "SKU-008-HOUSING-H",
+          "Qty": 8
+        }
+      ],
+      "Id": "ORD-039"
+    },
+    "Id": "CO-039"
   },
   {
     "DateReceived": "2025-11-20T15:45:00Z",
-    "Customer": {"Name": "Premier Manufacturing", "Address": {"Line1": "101 Industrial Estate", "Line2": "Unit 5", "Town": "Newcastle", "Postcode": "NE1 8ST", "Country": "United Kingdom"}},
-    "Order": {"Parts": [{"Sku": "SKU-012-SWITCH-L", "Qty": 6}]}
+    "Customer": {
+      "Id": "CUST-010",
+      "Name": "Premier Manufacturing",
+      "Address": {
+        "Id": "ADDR-010",
+        "Line1": "101 Industrial Estate",
+        "Line2": "Unit 5",
+        "Town": "Newcastle",
+        "Postcode": "NE1 8ST",
+        "Country": "United Kingdom"
+      }
+    },
+    "Order": {
+      "Parts": [
+        {
+          "Sku": "SKU-012-SWITCH-L",
+          "Qty": 6
+        }
+      ],
+      "Id": "ORD-040"
+    },
+    "Id": "CO-040"
   },
   {
     "DateReceived": "2025-11-15T17:00:00Z",
-    "Customer": {"Name": "John Smith", "Address": {"Line1": "123 Main Street", "Line2": "Apt 4B", "Town": "London", "Postcode": "SW1A 1AA", "Country": "United Kingdom"}},
-    "Order": {"Parts": [{"Sku": "SKU-013-SENSOR-M", "Qty": 18}, {"Sku": "SKU-014-MOTOR-N", "Qty": 6}]}
+    "Customer": {
+      "Id": "CUST-001",
+      "Name": "John Smith",
+      "Address": {
+        "Id": "ADDR-001",
+        "Line1": "123 Main Street",
+        "Line2": "Apt 4B",
+        "Town": "London",
+        "Postcode": "SW1A 1AA",
+        "Country": "United Kingdom"
+      }
+    },
+    "Order": {
+      "Parts": [
+        {
+          "Sku": "SKU-013-SENSOR-M",
+          "Qty": 18
+        },
+        {
+          "Sku": "SKU-014-MOTOR-N",
+          "Qty": 6
+        }
+      ],
+      "Id": "ORD-041"
+    },
+    "Id": "CO-041"
   },
   {
     "DateReceived": "2025-11-16T17:15:00Z",
-    "Customer": {"Name": "Jane Doe", "Address": {"Line1": "456 Oak Avenue", "Line2": null, "Town": "Manchester", "Postcode": "M1 1AA", "Country": "United Kingdom"}},
-    "Order": {"Parts": [{"Sku": "SKU-015-BEARING-O", "Qty": 12}]}
+    "Customer": {
+      "Id": "CUST-002",
+      "Name": "Jane Doe",
+      "Address": {
+        "Id": "ADDR-002",
+        "Line1": "456 Oak Avenue",
+        "Line2": null,
+        "Town": "Manchester",
+        "Postcode": "M1 1AA",
+        "Country": "United Kingdom"
+      }
+    },
+    "Order": {
+      "Parts": [
+        {
+          "Sku": "SKU-015-BEARING-O",
+          "Qty": 12
+        }
+      ],
+      "Id": "ORD-042"
+    },
+    "Id": "CO-042"
   },
   {
     "DateReceived": "2025-11-17T17:30:00Z",
-    "Customer": {"Name": "Acme Corporation", "Address": {"Line1": "789 Industrial Park", "Line2": "Building C", "Town": "Birmingham", "Postcode": "B1 1AA", "Country": "United Kingdom"}},
-    "Order": {"Parts": [{"Sku": "SKU-016-VALVE-P", "Qty": 3}, {"Sku": "SKU-017-FILTER-Q", "Qty": 6}, {"Sku": "SKU-018-PUMP-R", "Qty": 3}]}
+    "Customer": {
+      "Id": "CUST-003",
+      "Name": "Acme Corporation",
+      "Address": {
+        "Id": "ADDR-003",
+        "Line1": "789 Industrial Park",
+        "Line2": "Building C",
+        "Town": "Birmingham",
+        "Postcode": "B1 1AA",
+        "Country": "United Kingdom"
+      }
+    },
+    "Order": {
+      "Parts": [
+        {
+          "Sku": "SKU-016-VALVE-P",
+          "Qty": 3
+        },
+        {
+          "Sku": "SKU-017-FILTER-Q",
+          "Qty": 6
+        },
+        {
+          "Sku": "SKU-018-PUMP-R",
+          "Qty": 3
+        }
+      ],
+      "Id": "ORD-043"
+    },
+    "Id": "CO-043"
   },
   {
     "DateReceived": "2025-11-18T17:45:00Z",
-    "Customer": {"Name": "Sarah Johnson", "Address": {"Line1": "22 Park Lane", "Line2": null, "Town": "Leeds", "Postcode": "LS1 5QT", "Country": "United Kingdom"}},
-    "Order": {"Parts": [{"Sku": "SKU-019-RELAY-S", "Qty": 15}]}
+    "Customer": {
+      "Id": "CUST-004",
+      "Name": "Sarah Johnson",
+      "Address": {
+        "Id": "ADDR-004",
+        "Line1": "22 Park Lane",
+        "Line2": null,
+        "Town": "Leeds",
+        "Postcode": "LS1 5QT",
+        "Country": "United Kingdom"
+      }
+    },
+    "Order": {
+      "Parts": [
+        {
+          "Sku": "SKU-019-RELAY-S",
+          "Qty": 15
+        }
+      ],
+      "Id": "ORD-044"
+    },
+    "Id": "CO-044"
   },
   {
     "DateReceived": "2025-11-19T17:00:00Z",
-    "Customer": {"Name": "TechStart Ltd", "Address": {"Line1": "15 Innovation Way", "Line2": "Suite 200", "Town": "Edinburgh", "Postcode": "EH1 2NG", "Country": "United Kingdom"}},
-    "Order": {"Parts": [{"Sku": "SKU-020-DISPLAY-T", "Qty": 1}]}
+    "Customer": {
+      "Id": "CUST-005",
+      "Name": "TechStart Ltd",
+      "Address": {
+        "Id": "ADDR-005",
+        "Line1": "15 Innovation Way",
+        "Line2": "Suite 200",
+        "Town": "Edinburgh",
+        "Postcode": "EH1 2NG",
+        "Country": "United Kingdom"
+      }
+    },
+    "Order": {
+      "Parts": [
+        {
+          "Sku": "SKU-020-DISPLAY-T",
+          "Qty": 1
+        }
+      ],
+      "Id": "ORD-045"
+    },
+    "Id": "CO-045"
   },
   {
     "DateReceived": "2025-11-20T16:30:00Z",
-    "Customer": {"Name": "Michael Brown", "Address": {"Line1": "88 High Street", "Line2": null, "Town": "Bristol", "Postcode": "BS1 4DJ", "Country": "United Kingdom"}},
-    "Order": {"Parts": [{"Sku": "SKU-001-WIDGET-A", "Qty": 50}, {"Sku": "SKU-002-GADGET-B", "Qty": 50}]}
+    "Customer": {
+      "Id": "CUST-006",
+      "Name": "Michael Brown",
+      "Address": {
+        "Id": "ADDR-006",
+        "Line1": "88 High Street",
+        "Line2": null,
+        "Town": "Bristol",
+        "Postcode": "BS1 4DJ",
+        "Country": "United Kingdom"
+      }
+    },
+    "Order": {
+      "Parts": [
+        {
+          "Sku": "SKU-001-WIDGET-A",
+          "Qty": 50
+        },
+        {
+          "Sku": "SKU-002-GADGET-B",
+          "Qty": 50
+        }
+      ],
+      "Id": "ORD-046"
+    },
+    "Id": "CO-046"
   },
   {
     "DateReceived": "2025-11-15T18:00:00Z",
-    "Customer": {"Name": "Global Supplies Inc", "Address": {"Line1": "300 Commerce Road", "Line2": "Warehouse 7", "Town": "Liverpool", "Postcode": "L1 8JQ", "Country": "United Kingdom"}},
-    "Order": {"Parts": [{"Sku": "SKU-003-COMPONENT-C", "Qty": 30}]}
+    "Customer": {
+      "Id": "CUST-007",
+      "Name": "Global Supplies Inc",
+      "Address": {
+        "Id": "ADDR-007",
+        "Line1": "300 Commerce Road",
+        "Line2": "Warehouse 7",
+        "Town": "Liverpool",
+        "Postcode": "L1 8JQ",
+        "Country": "United Kingdom"
+      }
+    },
+    "Order": {
+      "Parts": [
+        {
+          "Sku": "SKU-003-COMPONENT-C",
+          "Qty": 30
+        }
+      ],
+      "Id": "ORD-047"
+    },
+    "Id": "CO-047"
   },
   {
     "DateReceived": "2025-11-16T18:15:00Z",
-    "Customer": {"Name": "Emma Wilson", "Address": {"Line1": "17 Garden Close", "Line2": "Flat 2", "Town": "Glasgow", "Postcode": "G1 1RD", "Country": "United Kingdom"}},
-    "Order": {"Parts": [{"Sku": "SKU-010-CABLE-J", "Qty": 60}, {"Sku": "SKU-009-CONNECTOR-I", "Qty": 120}]}
+    "Customer": {
+      "Id": "CUST-008",
+      "Name": "Emma Wilson",
+      "Address": {
+        "Id": "ADDR-008",
+        "Line1": "17 Garden Close",
+        "Line2": "Flat 2",
+        "Town": "Glasgow",
+        "Postcode": "G1 1RD",
+        "Country": "United Kingdom"
+      }
+    },
+    "Order": {
+      "Parts": [
+        {
+          "Sku": "SKU-010-CABLE-J",
+          "Qty": 60
+        },
+        {
+          "Sku": "SKU-009-CONNECTOR-I",
+          "Qty": 120
+        }
+      ],
+      "Id": "ORD-048"
+    },
+    "Id": "CO-048"
   },
   {
     "DateReceived": "2025-11-17T18:30:00Z",
-    "Customer": {"Name": "Robert Taylor", "Address": {"Line1": "42 Victoria Road", "Line2": null, "Town": "Cardiff", "Postcode": "CF10 3AT", "Country": "United Kingdom"}},
-    "Order": {"Parts": [{"Sku": "SKU-011-PANEL-K", "Qty": 12}, {"Sku": "SKU-012-SWITCH-L", "Qty": 24}]}
+    "Customer": {
+      "Id": "CUST-009",
+      "Name": "Robert Taylor",
+      "Address": {
+        "Id": "ADDR-009",
+        "Line1": "42 Victoria Road",
+        "Line2": null,
+        "Town": "Cardiff",
+        "Postcode": "CF10 3AT",
+        "Country": "United Kingdom"
+      }
+    },
+    "Order": {
+      "Parts": [
+        {
+          "Sku": "SKU-011-PANEL-K",
+          "Qty": 12
+        },
+        {
+          "Sku": "SKU-012-SWITCH-L",
+          "Qty": 24
+        }
+      ],
+      "Id": "ORD-049"
+    },
+    "Id": "CO-049"
   },
   {
     "DateReceived": "2025-11-18T18:45:00Z",
-    "Customer": {"Name": "Premier Manufacturing", "Address": {"Line1": "101 Industrial Estate", "Line2": "Unit 5", "Town": "Newcastle", "Postcode": "NE1 8ST", "Country": "United Kingdom"}},
-    "Order": {"Parts": [{"Sku": "SKU-014-MOTOR-N", "Qty": 4}, {"Sku": "SKU-015-BEARING-O", "Qty": 8}]}
+    "Customer": {
+      "Id": "CUST-010",
+      "Name": "Premier Manufacturing",
+      "Address": {
+        "Id": "ADDR-010",
+        "Line1": "101 Industrial Estate",
+        "Line2": "Unit 5",
+        "Town": "Newcastle",
+        "Postcode": "NE1 8ST",
+        "Country": "United Kingdom"
+      }
+    },
+    "Order": {
+      "Parts": [
+        {
+          "Sku": "SKU-014-MOTOR-N",
+          "Qty": 4
+        },
+        {
+          "Sku": "SKU-015-BEARING-O",
+          "Qty": 8
+        }
+      ],
+      "Id": "ORD-050"
+    },
+    "Id": "CO-050"
   }
 ]

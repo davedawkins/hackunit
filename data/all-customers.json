@@ -1,7 +1,9 @@
 [
   {
+    "Id": "CUST-001",
     "Name": "John Smith",
     "Address": {
+      "Id": "ADDR-001",
       "Line1": "123 Main Street",
       "Line2": "Apt 4B",
       "Town": "London",
@@ -10,8 +12,10 @@
     }
   },
   {
+    "Id": "CUST-002",
     "Name": "Jane Doe",
     "Address": {
+      "Id": "ADDR-002",
       "Line1": "456 Oak Avenue",
       "Line2": null,
       "Town": "Manchester",
@@ -20,8 +24,10 @@
     }
   },
   {
+    "Id": "CUST-003",
     "Name": "Acme Corporation",
     "Address": {
+      "Id": "ADDR-003",
       "Line1": "789 Industrial Park",
       "Line2": "Building C",
       "Town": "Birmingham",
@@ -30,8 +36,10 @@
     }
   },
   {
+    "Id": "CUST-004",
     "Name": "Sarah Johnson",
     "Address": {
+      "Id": "ADDR-004",
       "Line1": "22 Park Lane",
       "Line2": null,
       "Town": "Leeds",
@@ -40,8 +48,10 @@
     }
   },
   {
+    "Id": "CUST-005",
     "Name": "TechStart Ltd",
     "Address": {
+      "Id": "ADDR-005",
       "Line1": "15 Innovation Way",
       "Line2": "Suite 200",
       "Town": "Edinburgh",
@@ -50,8 +60,10 @@
     }
   },
   {
+    "Id": "CUST-006",
     "Name": "Michael Brown",
     "Address": {
+      "Id": "ADDR-006",
       "Line1": "88 High Street",
       "Line2": null,
       "Town": "Bristol",
@@ -60,8 +72,10 @@
     }
   },
   {
+    "Id": "CUST-007",
     "Name": "Global Supplies Inc",
     "Address": {
+      "Id": "ADDR-007",
       "Line1": "300 Commerce Road",
       "Line2": "Warehouse 7",
       "Town": "Liverpool",
@@ -70,8 +84,10 @@
     }
   },
   {
+    "Id": "CUST-008",
     "Name": "Emma Wilson",
     "Address": {
+      "Id": "ADDR-008",
       "Line1": "17 Garden Close",
       "Line2": "Flat 2",
       "Town": "Glasgow",
@@ -80,8 +96,10 @@
     }
   },
   {
+    "Id": "CUST-009",
     "Name": "Robert Taylor",
     "Address": {
+      "Id": "ADDR-009",
       "Line1": "42 Victoria Road",
       "Line2": null,
       "Town": "Cardiff",
@@ -90,8 +108,10 @@
     }
   },
   {
+    "Id": "CUST-010",
     "Name": "Premier Manufacturing",
     "Address": {
+      "Id": "ADDR-010",
       "Line1": "101 Industrial Estate",
       "Line2": "Unit 5",
       "Town": "Newcastle",

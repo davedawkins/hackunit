@@ -39,8 +39,21 @@ type CustomerOrder =
         Order : Order
     }
 
+type ShipmentGroup =
+    Pending | InProgress | Complete
+
 type ShipmentStatus = 
     NotStarted | OnHold of string | InAssembly | AwaitingDispatch | InTransit | Received | Rejected | Lost of string
+    member __.Group =
+        match __ with
+        | NotStarted 
+        | OnHold _ -> Pending
+        | InAssembly 
+        | AwaitingDispatch 
+        | InTransit  -> InProgress
+        | Received 
+        | Rejected 
+        | Lost _ -> Complete
 
 type Shipment = 
     {

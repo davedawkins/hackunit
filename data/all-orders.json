@@ -9,7 +9,8 @@
         "Sku": "SKU-002-GADGET-B",
         "Qty": 3
       }
-    ]
+    ],
+    "Id": "ORD-001"
   },
   {
     "Parts": [
@@ -17,7 +18,8 @@
         "Sku": "SKU-003-COMPONENT-C",
         "Qty": 10
       }
-    ]
+    ],
+    "Id": "ORD-002"
   },
   {
     "Parts": [
@@ -33,7 +35,8 @@
         "Sku": "SKU-005-MODULE-E",
         "Qty": 1
       }
-    ]
+    ],
+    "Id": "ORD-003"
   },
   {
     "Parts": [
@@ -41,7 +44,8 @@
         "Sku": "SKU-006-ASSEMBLY-F",
         "Qty": 4
       }
-    ]
+    ],
+    "Id": "ORD-004"
   },
   {
     "Parts": [
@@ -53,7 +57,8 @@
         "Sku": "SKU-008-HOUSING-H",
         "Qty": 8
       }
-    ]
+    ],
+    "Id": "ORD-005"
   },
   {
     "Parts": [
@@ -65,7 +70,8 @@
         "Sku": "SKU-010-CABLE-J",
         "Qty": 25
       }
-    ]
+    ],
+    "Id": "ORD-006"
   },
   {
     "Parts": [
@@ -73,7 +79,8 @@
         "Sku": "SKU-011-PANEL-K",
         "Qty": 6
       }
-    ]
+    ],
+    "Id": "ORD-007"
   },
   {
     "Parts": [
@@ -85,7 +92,8 @@
         "Sku": "SKU-013-SENSOR-M",
         "Qty": 12
       }
-    ]
+    ],
+    "Id": "ORD-008"
   },
   {
     "Parts": [
@@ -97,7 +105,8 @@
         "Sku": "SKU-015-BEARING-O",
         "Qty": 9
       }
-    ]
+    ],
+    "Id": "ORD-009"
   },
   {
     "Parts": [
@@ -109,7 +118,8 @@
         "Sku": "SKU-017-FILTER-Q",
         "Qty": 8
       }
-    ]
+    ],
+    "Id": "ORD-010"
   },
   {
     "Parts": [
@@ -117,7 +127,8 @@
         "Sku": "SKU-018-PUMP-R",
         "Qty": 2
       }
-    ]
+    ],
+    "Id": "ORD-011"
   },
   {
     "Parts": [
@@ -129,7 +140,8 @@
         "Sku": "SKU-020-DISPLAY-T",
         "Qty": 5
       }
-    ]
+    ],
+    "Id": "ORD-012"
   },
   {
     "Parts": [
@@ -137,7 +149,8 @@
         "Sku": "SKU-001-WIDGET-A",
         "Qty": 100
       }
-    ]
+    ],
+    "Id": "ORD-013"
   },
   {
     "Parts": [
@@ -149,7 +162,8 @@
         "Sku": "SKU-003-COMPONENT-C",
         "Qty": 14
       }
-    ]
+    ],
+    "Id": "ORD-014"
   },
   {
     "Parts": [
@@ -165,7 +179,8 @@
         "Sku": "SKU-007-BRACKET-G",
         "Qty": 12
       }
-    ]
+    ],
+    "Id": "ORD-015"
   },
   {
     "Parts": [
@@ -173,7 +188,8 @@
         "Sku": "SKU-008-HOUSING-H",
         "Qty": 3
       }
-    ]
+    ],
+    "Id": "ORD-016"
   },
   {
     "Parts": [
@@ -185,7 +201,8 @@
         "Sku": "SKU-009-CONNECTOR-I",
         "Qty": 200
       }
-    ]
+    ],
+    "Id": "ORD-017"
   },
   {
     "Parts": [
@@ -197,7 +214,8 @@
         "Sku": "SKU-012-SWITCH-L",
         "Qty": 10
       }
-    ]
+    ],
+    "Id": "ORD-018"
   },
   {
     "Parts": [
@@ -205,7 +223,8 @@
         "Sku": "SKU-013-SENSOR-M",
         "Qty": 25
       }
-    ]
+    ],
+    "Id": "ORD-019"
   },
   {
     "Parts": [
@@ -221,7 +240,8 @@
         "Sku": "SKU-016-VALVE-P",
         "Qty": 2
       }
-    ]
+    ],
+    "Id": "ORD-020"
   },
   {
     "Parts": [
@@ -229,7 +249,8 @@
         "Sku": "SKU-017-FILTER-Q",
         "Qty": 12
       }
-    ]
+    ],
+    "Id": "ORD-021"
   },
   {
     "Parts": [
@@ -241,7 +262,8 @@
         "Sku": "SKU-019-RELAY-S",
         "Qty": 5
       }
-    ]
+    ],
+    "Id": "ORD-022"
   },
   {
     "Parts": [
@@ -249,7 +271,8 @@
         "Sku": "SKU-020-DISPLAY-T",
         "Qty": 8
       }
-    ]
+    ],
+    "Id": "ORD-023"
   },
   {
     "Parts": [
@@ -261,7 +284,8 @@
         "Sku": "SKU-004-PART-D",
         "Qty": 15
       }
-    ]
+    ],
+    "Id": "ORD-024"
   },
   {
     "Parts": [
@@ -269,7 +293,8 @@
         "Sku": "SKU-002-GADGET-B",
         "Qty": 20
       }
-    ]
+    ],
+    "Id": "ORD-025"
   },
   {
     "Parts": [
@@ -281,7 +306,8 @@
         "Sku": "SKU-005-MODULE-E",
         "Qty": 5
       }
-    ]
+    ],
+    "Id": "ORD-026"
   },
   {
     "Parts": [
@@ -297,7 +323,8 @@
         "Sku": "SKU-008-HOUSING-H",
         "Qty": 2
       }
-    ]
+    ],
+    "Id": "ORD-027"
   },
   {
     "Parts": [
@@ -305,7 +332,8 @@
         "Sku": "SKU-011-PANEL-K",
         "Qty": 8
       }
-    ]
+    ],
+    "Id": "ORD-028"
   },
   {
     "Parts": [
@@ -317,7 +345,8 @@
         "Sku": "SKU-013-SENSOR-M",
         "Qty": 30
       }
-    ]
+    ],
+    "Id": "ORD-029"
   },
   {
     "Parts": [
@@ -325,7 +354,8 @@
         "Sku": "SKU-014-MOTOR-N",
         "Qty": 2
       }
-    ]
+    ],
+    "Id": "ORD-030"
   },
   {
     "Parts": [
@@ -337,7 +367,8 @@
         "Sku": "SKU-016-VALVE-P",
         "Qty": 8
       }
-    ]
+    ],
+    "Id": "ORD-031"
   },
   {
     "Parts": [
@@ -349,7 +380,8 @@
         "Sku": "SKU-018-PUMP-R",
         "Qty": 5
       }
-    ]
+    ],
+    "Id": "ORD-032"
   },
   {
     "Parts": [
@@ -357,7 +389,8 @@
         "Sku": "SKU-019-RELAY-S",
         "Qty": 10
       }
-    ]
+    ],
+    "Id": "ORD-033"
   },
   {
     "Parts": [
@@ -369,7 +402,8 @@
         "Sku": "SKU-001-WIDGET-A",
         "Qty": 3
       }
-    ]
+    ],
+    "Id": "ORD-034"
   },
   {
     "Parts": [
@@ -377,7 +411,8 @@
         "Sku": "SKU-009-CONNECTOR-I",
         "Qty": 75
       }
-    ]
+    ],
+    "Id": "ORD-035"
   },
   {
     "Parts": [
@@ -389,7 +424,8 @@
         "Sku": "SKU-011-PANEL-K",
         "Qty": 4
       }
-    ]
+    ],
+    "Id": "ORD-036"
   },
   {
     "Parts": [
@@ -397,7 +433,8 @@
         "Sku": "SKU-004-PART-D",
         "Qty": 25
       }
-    ]
+    ],
+    "Id": "ORD-037"
   },
   {
     "Parts": [
@@ -409,7 +446,8 @@
         "Sku": "SKU-006-ASSEMBLY-F",
         "Qty": 10
       }
-    ]
+    ],
+    "Id": "ORD-038"
   },
   {
     "Parts": [
@@ -421,7 +459,8 @@
         "Sku": "SKU-008-HOUSING-H",
         "Qty": 8
       }
-    ]
+    ],
+    "Id": "ORD-039"
   },
   {
     "Parts": [
@@ -429,7 +468,8 @@
         "Sku": "SKU-012-SWITCH-L",
         "Qty": 6
       }
-    ]
+    ],
+    "Id": "ORD-040"
   },
   {
     "Parts": [
@@ -441,7 +481,8 @@
         "Sku": "SKU-014-MOTOR-N",
         "Qty": 6
       }
-    ]
+    ],
+    "Id": "ORD-041"
   },
   {
     "Parts": [
@@ -449,7 +490,8 @@
         "Sku": "SKU-015-BEARING-O",
         "Qty": 12
       }
-    ]
+    ],
+    "Id": "ORD-042"
   },
   {
     "Parts": [
@@ -465,7 +507,8 @@
         "Sku": "SKU-018-PUMP-R",
         "Qty": 3
       }
-    ]
+    ],
+    "Id": "ORD-043"
   },
   {
     "Parts": [
@@ -473,7 +516,8 @@
         "Sku": "SKU-019-RELAY-S",
         "Qty": 15
       }
-    ]
+    ],
+    "Id": "ORD-044"
   },
   {
     "Parts": [
@@ -481,7 +525,8 @@
         "Sku": "SKU-020-DISPLAY-T",
         "Qty": 1
       }
-    ]
+    ],
+    "Id": "ORD-045"
   },
   {
     "Parts": [
@@ -493,7 +538,8 @@
         "Sku": "SKU-002-GADGET-B",
         "Qty": 50
       }
-    ]
+    ],
+    "Id": "ORD-046"
   },
   {
     "Parts": [
@@ -501,7 +547,8 @@
         "Sku": "SKU-003-COMPONENT-C",
         "Qty": 30
       }
-    ]
+    ],
+    "Id": "ORD-047"
   },
   {
     "Parts": [
@@ -513,7 +560,8 @@
         "Sku": "SKU-009-CONNECTOR-I",
         "Qty": 120
       }
-    ]
+    ],
+    "Id": "ORD-048"
   },
   {
     "Parts": [
@@ -525,7 +573,8 @@
         "Sku": "SKU-012-SWITCH-L",
         "Qty": 24
       }
-    ]
+    ],
+    "Id": "ORD-049"
   },
   {
     "Parts": [
@@ -537,6 +586,7 @@
         "Sku": "SKU-015-BEARING-O",
         "Qty": 8
       }
-    ]
+    ],
+    "Id": "ORD-050"
   }
 ]

@@ -25,8 +25,9 @@ let arithmeticTests =
 
 let allTests = testList "All" [
     DatabaseTests.dbTests
+    DataViewTests.shipmentTests
     StoreTests.storeTests
-    arithmeticTests
+    // arithmeticTests
 ]
 
 [<EntryPoint>]

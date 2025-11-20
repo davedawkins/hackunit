@@ -6,8 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="DataViewTests.fs" />
     <Compile Include="DatabaseTests.fs" />
+    <Compile Include="DataViewTests.fs" />
     <Compile Include="StoreTests.fs" />
     <Compile Include="Tests.fs" />
   </ItemGroup>

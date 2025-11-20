@@ -15,8 +15,10 @@ let init (db : IDatabase) =
 let allShipments() : System.IObservable<Shipment[]> =
     shipments
 
-let shipmentsByStatus() : System.IObservable<(ShipmentStatus * Shipment[])[]> =
-    shipments |> Store.map (fun x -> x |> Array.groupBy _.Status)
+let shipmentsByGroup() : System.IObservable<(ShipmentGroup * Shipment[])[]> =
+    shipments |> Store.map (fun x -> x |> Array.groupBy _.Status.Group)
 
 let updateShipmentStatus( id : string, status : ShipmentStatus ) =
-    ()
+    shipments.Value
+    |> Array.map (fun x -> if x.Id = id then { x with Status = status } else x)
+    |> Store.set shipments
